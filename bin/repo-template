@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+
+"use strict"
+
+var path = require('path');
+var fs = require('fs');
+var exec = require('child_process').exec;
+
+var args = process.argv.slice(2);
+var name = args[0];
+
+if (!name) {
+	console.log('Usage: repo-template somename')
+}
