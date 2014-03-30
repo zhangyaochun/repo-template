@@ -1,0 +1,16 @@
+{
+    "name" : "{{name}}",
+    "version" : "1.0.0",
+    "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/zhangyaochun/{{name}}"
+    },
+    "dependencies" : {},
+    "devDependencies" : {},
+    "engines" : {
+        "node" : ">=0.8.0"
+    },
+    "scripts" : {
+        "test" : "grunt test:travis --verbose;"
+    }
+}
